@@ -1,5 +1,5 @@
-[![Clojars Project](https://img.shields.io/clojars/v/jtk-dvlp/re-frame-dragndrop.svg)](https://clojars.org/jtk-dvlp/re-frame-dragndrop)
-[![cljdoc badge](https://cljdoc.org/badge/jtk-dvlp/re-frame-dragndrop)](https://cljdoc.org/d/jtk-dvlp/re-frame-dragndrop/CURRENT)
+[![Clojars Project](https://img.shields.io/clojars/v/net.clojars.jtkdvlp/re-frame-dragndrop.svg)](https://clojars.org/net.clojars.jtkdvlp/re-frame-dragndrop)
+[![cljdoc badge](https://cljdoc.org/badge/net.clojars.jtkdvlp/re-frame-dragndrop)](https://cljdoc.org/d/net.clojars.jtkdvlp/re-frame-dragndrop/CURRENT)
 
 # re-frame-dragndrop
 
@@ -20,7 +20,7 @@ re-frame view components for drag & drop.
 ### Get it / add dependency
 
 Add the following dependency to your `project.clj`:<br>
-[![Clojars Project](https://img.shields.io/clojars/v/jtk-dvlp/re-frame-dragndrop.svg)](https://clojars.org/jtk-dvlp/re-frame-dragndrop)
+[![Clojars Project](https://img.shields.io/clojars/v/net.clojars.jtkdvlp/re-frame-dragndrop.svg)](https://clojars.org/net.clojars.jtkdvlp/re-frame-dragndrop)
 
 ### Usage
 

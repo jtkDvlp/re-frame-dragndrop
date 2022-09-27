@@ -1,4 +1,4 @@
-(defproject jtk-dvlp/dragndrop "0.0.0-SNAPSHOT"
+(defproject net.clojars.jtkdvlp/re-frame-dragndrop "0.0.0-SNAPSHOT"
   :description
   "re-frame view components for drag & drop"
 
