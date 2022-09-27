@@ -146,7 +146,7 @@
   "Modifies `element` to function as dropzone for draggables.
 
   - `types` defines the type or collection of types of data to be allowed dropping over this element / zone. Supports string, keyword and other values working with `jtk-dvlp.transit/clj->transit`. Need to match draggable´s types to allow dropping.
-  - `on-drop` defines a re-frame event vector or function to dispatch / call with the dropped data on dopping a draggable element.
+  - `on-drop` defines a re-frame event vector or function to dispatch / call with a vector of the dropped data on dopping a draggable element.
 
   See `draggable`."
   [{:keys [types on-drop] :as attrs} element]
