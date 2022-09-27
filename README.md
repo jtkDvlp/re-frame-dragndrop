@@ -8,11 +8,11 @@ re-frame view components for drag & drop.
 ## Features
 
 * make views draggable
-** clojure data (edn)
-** any mime-type
+  * clojure data (edn)
+  * any mime-type
 * make views to dropzones
-** clojure data (edn)
-** any mime-type e.g. files
+  * clojure data (edn)
+  * any mime-type e.g. files
 * no extra state just native api
 
 ## Getting started
