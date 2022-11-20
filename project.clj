@@ -1,4 +1,4 @@
-(defproject net.clojars.jtkdvlp/re-frame-dragndrop "0.0.0-SNAPSHOT"
+(defproject net.clojars.jtkdvlp/re-frame-dragndrop "1.0.0"
   :description
   "re-frame view components for drag & drop"
 
@@ -24,7 +24,7 @@
   :dependencies
   [[org.clojure/clojure "1.10.0"]
    [org.clojure/clojurescript "1.10.773"]
-   [net.clojars.jtkdvlp/transit "0.0.0-SNAPSHOT"]]
+   [net.clojars.jtkdvlp/transit "1.0.0"]]
 
   :profiles
   {:provided
