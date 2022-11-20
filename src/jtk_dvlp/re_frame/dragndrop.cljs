@@ -2,8 +2,26 @@
   (:require
    [reagent.core :as r]
    [re-frame.core :as rf]
-   [jtk-dvlp.transit :refer [clj->transit transit->clj]]))
+   [jtk-dvlp.transit :as transit]))
 
+
+(def ^:private !clj->transit (atom nil))
+(def set-fn-clj->transit!
+  (partial reset! !clj->transit))
+
+(defn- clj->transit
+  [clj]
+  (let [f (or @!clj->transit transit/clj->transit)]
+    (f clj)))
+
+(def ^:private !transit->clj (atom nil))
+(def set-fn-transit->clj!
+  (partial reset! !transit->clj))
+
+(defn- transit->clj
+  [transit]
+  (let [f (or @!transit->clj transit/transit->clj)]
+    (f transit)))
 
 (defn- ensure-coll
   [x]

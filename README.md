@@ -8,12 +8,13 @@ re-frame view components for drag & drop.
 ## Features
 
 * make views draggable
-  * clojure data (edn)
+  * clojure data (edn) via [transit](https://github.com/jtkDvlp/transit)
   * any mime-type
 * make views to dropzones
-  * clojure data (edn)
+  * clojure data (edn) via [transit](https://github.com/jtkDvlp/transit)
   * any mime-type e.g. files
 * no extra state just native api
+* customizable transit convertion via `set-fn-clj->transit!` & `set-fn-transit->clj!`
 
 ## Getting started
 
